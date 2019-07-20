@@ -1,6 +1,4 @@
-<html>
-
-<head>
+<html><head>
     <title>Big Road: Simplist's solution to a mobile-only web story</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0,maximum-scale=1.0">
     <style>
@@ -210,11 +208,11 @@
     <p>Embedding videos in a responsive manner is always a pain. The conventional technique is to embed by <code>iframe</code>. You need to specify the width and height of the iframe, making it non-responsive to different screens.</p>
 
     <p>Use Youtube as an example. You can copy the following code of
-        <a href="https://www.youtube.com/watch?v=qp0HIF3SfI4">this video</a> from its "Share --> Embed" button:
+        <a href="https://www.youtube.com/watch?v=qp0HIF3SfI4">this video</a> from its "Share --&gt; Embed" button:
     </p>
 
     <p><code>
-        &#x3C;iframe width=&#x22;560&#x22; height=&#x22;315&#x22; src=&#x22;https://www.youtube.com/embed/qp0HIF3SfI4&#x22; frameborder=&#x22;0&#x22; allow=&#x22;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#x22; allowfullscreen&#x3E;&#x3C;/iframe&#x3E;
+        &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/qp0HIF3SfI4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
     </code></p>
 
     <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/qp0HIF3SfI4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
@@ -233,7 +231,7 @@
     </p>
 
     <responsive-block>
-        <iframe src='https://www.youtube.com/embed/qp0HIF3SfI4' frameborder='0' allowfullscreen>
+        <iframe src="https://www.youtube.com/embed/qp0HIF3SfI4" frameborder="0" allowfullscreen="">
         </iframe>
     </responsive-block>
 
@@ -257,14 +255,14 @@
     </p>
 
     <p>
-        <code>&#x3C;responsive-block&#x3E;&#x3C;iframe src=&#x27;//server-name/path/to/the/file.html&#x27; frameborder=&#x27;0&#x27; allowfullscreen&#x3E;&#x3C;/iframe&#x3E;&#x3C;/responsive-block&#x3E;</code>
+        <code>&lt;responsive-block&gt;&lt;iframe src='//server-name/path/to/the/file.html' frameborder='0' allowfullscreen&gt;&lt;/iframe&gt;&lt;/responsive-block&gt;</code>
     </p>
 
     <p> Here is an example of a map made from Python's <code>folium</code> library. It is the original hi-fi version of the raster image used in <a href="https://mp.weixin.qq.com/s/aFfa7WlyT0vwXBlDYvacCg">this blog post</a>. Although the following one is
         not interactive or animated, you can easily make it so from the <code>folium</code> library. </p>
 
     <responsive-block>
-        <iframe src='charts/openrice-sichuan-food/map.html' frameborder='0' allowfullscreen>
+        <iframe src="charts/openrice-sichuan-food/map.html" frameborder="0" allowfullscreen="">
         </iframe>
     </responsive-block>
 
@@ -275,7 +273,7 @@
     </p>
 
     <responsive-block>
-        <iframe src='//hupili.net/20170800-sichuan-earthquake-in-100years/' frameborder='0' allowfullscreen>
+        <iframe src="//hupili.net/20170800-sichuan-earthquake-in-100years/" frameborder="0" allowfullscreen="">
         </iframe>
     </responsive-block>
 
@@ -285,7 +283,7 @@
 
     <ratio-1-to-1>
         <responsive-block>
-            <iframe src='//hupili.net/20170800-sichuan-earthquake-in-100years/' frameborder='0' allowfullscreen>
+            <iframe src="//hupili.net/20170800-sichuan-earthquake-in-100years/" frameborder="0" allowfullscreen="">
         </iframe>
         </responsive-block>
     </ratio-1-to-1>
@@ -312,7 +310,7 @@
     <p>Find the GitHub repo <a href="https://github.com/hupili/big-road">here</a>.</p>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-37311363-17"></script>
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-37311363-17"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -324,6 +322,7 @@
         gtag('config', 'UA-37311363-17');
     </script>
 
-</body>
 
-</html>
+
+
+</body></html>
